@@ -1,14 +1,16 @@
 package com.thecraicers.model;
 
+import java.util.List;
+
 public class Vehicle {
 
-    private Coordinates coordinates;
+    private List<Coordinate> coordinates;
 
-    public Coordinates getCoordinates() {
+    public List getCoordinates() {
         return coordinates;
     }
 
-    public void setCoordinates(Coordinates coordinates) {
-        this.coordinates = coordinates;
+    public void setCoordinates(List<Coordinate> coordinate) {
+        this.coordinates = coordinate;
     }
 }

@@ -1,11 +1,11 @@
 package com.thecraicers.model;
 
-public class Coordinates {
+public class Coordinate {
 
     private Integer latitude;
     private Integer longitude;
 
-    public Coordinates() {
+    public Coordinate() {
         latitude = 0;
         longitude = 0;
     }
