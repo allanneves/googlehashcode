@@ -10,8 +10,11 @@ public class Ride {
     private Integer latestFinish;
     private Integer distance;
     private Score score;
+    private float rating;
 
     public Ride() {
+        this.startCoordinate = new Coordinate();
+        this.finishCoordinate = new Coordinate();
         this.distance = CoordinateUtil.calculateDistance(this.getStartCoordinate(), this.getFinishCoordinate());
     }
 
