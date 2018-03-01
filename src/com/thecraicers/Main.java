@@ -13,8 +13,7 @@ public class Main {
     private List<Ride> rides;
 
     public static void main(String[] args) {
-      AppConstant x = new AppConstant();
-      x.extract("src/com/thecraicers/a_example.in");
-      
+        VehicleController vehicleController = new VehicleController();
+        AppConstant.extract("src/com/thecraicers/a_example.in");
     }
 }

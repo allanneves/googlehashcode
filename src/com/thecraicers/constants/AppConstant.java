@@ -11,18 +11,18 @@ import com.thecraicers.model.Ride;
 
 public class AppConstant {
 
-  static int rows;
-  static int columns;
-  static int vehicles;
-  static int rides;
-  static int perRideBonus;
-  static int time;
+  public static int rows;
+  public static int columns;
+  public static int vehicles;
+  public static int rides;
+  public static int perRideBonus;
+  public static int time;
 
   static ArrayList<Ride> trips = new ArrayList<>();
 
   public static void extract(String input) {
 
-    File file = new File("src/com/thecraicers/model/a_example.in");
+    File file = new File("src/com/thecraicers/a_example.in");
     System.out.println(file.getAbsolutePath());
 
     try (FileReader fileReader = new FileReader(file);
