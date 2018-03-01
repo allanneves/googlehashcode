@@ -23,7 +23,7 @@ public class AppConstant {
 
   public static void extract(String input) {
 
-    File file = new File("src/com/thecraicers/a_example.in");
+    File file = new File("src/com/thecraicers/e_high_bonus.in");
     System.out.println(file.getAbsolutePath());
 
     try (FileReader fileReader = new FileReader(file);

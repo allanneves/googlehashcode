@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="241be0a0-017d-4b94-be3b-7364149186cd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/output.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/thecraicers/constants/AppConstant.java" afterPath="$PROJECT_DIR$/src/com/thecraicers/constants/AppConstant.java" />
       <change beforePath="$PROJECT_DIR$/src/com/thecraicers/util/ExportResult.java" afterPath="$PROJECT_DIR$/src/com/thecraicers/util/ExportResult.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,8 +19,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thecraicers/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -26,21 +28,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExportResult.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExportResult.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thecraicers/util/ExportResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+            <state relative-caret-position="135">
+              <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="output.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output.txt">
+      <file leaf-file-name="output_a.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/output_a.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,13 +51,13 @@
       <file leaf-file-name="AppConstant.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thecraicers/constants/AppConstant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="25" column="58" lean-forward="false" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
               <folding>
-                <element signature="e#2484#2485#0" expanded="true" />
-                <element signature="e#2509#2510#0" expanded="true" />
-                <element signature="e#2543#2544#0" expanded="true" />
-                <element signature="e#2565#2566#0" expanded="true" />
+                <element signature="e#2487#2488#0" expanded="true" />
+                <element signature="e#2512#2513#0" expanded="true" />
+                <element signature="e#2546#2547#0" expanded="true" />
+                <element signature="e#2568#2569#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,45 +70,6 @@
               <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ride.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thecraicers/model/Ride.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#821#822#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#896#897#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#1001#1002#0" expanded="true" />
-                <element signature="e#1047#1048#0" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-                <element signature="e#1151#1152#0" expanded="true" />
-                <element signature="e#1205#1206#0" expanded="true" />
-                <element signature="e#1252#1253#0" expanded="true" />
-                <element signature="e#1291#1292#0" expanded="true" />
-                <element signature="e#1359#1360#0" expanded="true" />
-                <element signature="e#1415#1416#0" expanded="true" />
-                <element signature="e#1451#1452#0" expanded="true" />
-                <element signature="e#1482#1483#0" expanded="true" />
-                <element signature="e#1531#1532#0" expanded="true" />
-                <element signature="e#1571#1572#0" expanded="true" />
-                <element signature="e#1603#1604#0" expanded="true" />
-                <element signature="e#1632#1633#0" expanded="true" />
-                <element signature="e#1675#1676#0" expanded="true" />
-                <element signature="e#1711#1712#0" expanded="true" />
-                <element signature="e#1747#1748#0" expanded="true" />
-                <element signature="e#1781#1782#0" expanded="true" />
-                <element signature="e#1832#1833#0" expanded="true" />
-                <element signature="e#1871#1872#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -206,10 +169,10 @@
         <option value="$PROJECT_DIR$/src/com/thecraicers/util/ScoreUtil.java" />
         <option value="$PROJECT_DIR$/src/com/thecraicers/model/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/com/thecraicers/model/Ride.java" />
-        <option value="$PROJECT_DIR$/src/com/thecraicers/constants/AppConstant.java" />
         <option value="$PROJECT_DIR$/src/com/thecraicers/controller/StrategyController.java" />
-        <option value="$PROJECT_DIR$/src/com/thecraicers/Main.java" />
         <option value="$PROJECT_DIR$/output.txt" />
+        <option value="$PROJECT_DIR$/src/com/thecraicers/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/thecraicers/constants/AppConstant.java" />
         <option value="$PROJECT_DIR$/src/com/thecraicers/util/ExportResult.java" />
       </list>
     </option>
@@ -282,13 +245,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="thecraicers" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="google" type="b2602c69:ProjectViewProjectNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="thecraicers" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -370,16 +326,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519925816181</updated>
-      <workItem from="1519925822015" duration="12601000" />
+      <workItem from="1519925822015" duration="12954000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12601000" />
+    <option name="totallyTimeSpent" value="12954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1096" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -392,9 +347,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -514,33 +469,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thecraicers/constants/AppConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="e#2484#2485#0" expanded="true" />
-            <element signature="e#2509#2510#0" expanded="true" />
-            <element signature="e#2543#2544#0" expanded="true" />
-            <element signature="e#2565#2566#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thecraicers/util/ScoreUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thecraicers/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -591,10 +523,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thecraicers/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thecraicers/constants/AppConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="58" lean-forward="false" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+          <folding>
+            <element signature="e#2487#2488#0" expanded="true" />
+            <element signature="e#2512#2513#0" expanded="true" />
+            <element signature="e#2546#2547#0" expanded="true" />
+            <element signature="e#2568#2569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thecraicers/util/ExportResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        <state relative-caret-position="135">
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_a.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

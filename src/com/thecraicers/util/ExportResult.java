@@ -13,7 +13,7 @@ public class ExportResult {
   public static void export(List<Vehicle> results) {
 
     try {
-      String FILENAME = "output.txt";
+      String FILENAME = "output_e.txt";
 
       BufferedWriter bw = null;
       FileWriter fw = null;
