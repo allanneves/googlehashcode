@@ -8,6 +8,7 @@ public class ScoreUtil {
         Integer distance = ride.getDistance();
 
         if(isExactlyOnTIme) {
+            return distance + 100;
         }
 
         return distance;
