@@ -22,10 +22,6 @@ public class ExportResult {
       for (Vehicle singleResult : results) {
         StringBuilder data = new StringBuilder();
 
-/*        for (int x : singleResult.getCompletedRides()) {
-          data.append(x + " ");
-        }*/
-
         data.append(singleResult.getCompletedRides().size() + " ");
 
         for (Integer integer : singleResult.getCompletedRides()) {
