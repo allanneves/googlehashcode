@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Vehicle {
 
-    private Coordinate currentLocation;
-    private Integer currentStep;
+    private Coordinate currentLocation = new Coordinate();
+    private Integer currentStep = 0;
     private List<Integer> completedRides = new ArrayList<>();
     private Integer score = 0;
 

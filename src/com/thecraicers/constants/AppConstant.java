@@ -8,6 +8,7 @@ import java.util.ArrayList;
 
 import com.thecraicers.model.Coordinate;
 import com.thecraicers.model.Ride;
+import com.thecraicers.util.CoordinateUtil;
 
 public class AppConstant {
 
@@ -57,8 +58,10 @@ public class AppConstant {
         int endRow = Integer.parseInt(myData[2]);
         int endCol = Integer.parseInt(myData[3]);
         cordsEnd.setX(endRow);
-        cordsEnd.setX(endCol);
+        cordsEnd.setY(endCol);
         ride.setFinishCoordinate(cordsEnd);
+
+        ride.setDistance(CoordinateUtil.calculateDistance(cordsStart, cordsEnd));
 
         int startTime = Integer.parseInt(myData[4]);
         int endTime = Integer.parseInt(myData[5]);

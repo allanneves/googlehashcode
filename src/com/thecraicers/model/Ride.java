@@ -4,12 +4,12 @@ import com.thecraicers.util.CoordinateUtil;
 
 public class Ride {
 
-    private Coordinate startCoordinate;
-    private Coordinate finishCoordinate;
-    private Integer earliestStart;
-    private Integer latestFinish;
-    private Integer distance;
-    private float rating;
+    private Coordinate startCoordinate = new Coordinate();
+    private Coordinate finishCoordinate = new Coordinate();
+    private Integer earliestStart = 0;
+    private Integer latestFinish = 0;
+    private Integer distance = 0;
+    private float rating = 0;
     private boolean isAvailable = true;
 
     public Ride() {

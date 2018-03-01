@@ -1,5 +1,6 @@
 package com.thecraicers.controller;
 
+import com.thecraicers.constants.AppConstant;
 import com.thecraicers.constants.AppConstants;
 import com.thecraicers.model.Ride;
 import com.thecraicers.model.Vehicle;
@@ -12,8 +13,9 @@ public class StrategyController {
 
     public void execute(List<Vehicle> vehicles, List<Ride> rides) {
         for (Vehicle vehicle : vehicles) {
-            while (vehicle.getCurrentStep() < AppConstants.T) {
-                Integer maximumRating = 0;
+            System.out.println(AppConstant.getTime());
+            while (vehicle.getCurrentStep() < AppConstant.getTime()) {
+                float maximumRating = 0;
                 Integer roundedScore = 0;
                 Ride selectedRide = null;
                 Integer rideId = null;
@@ -26,7 +28,7 @@ public class StrategyController {
                             int timeToCompleteTheRide = Math.max(distanceLeft, rides.get(i).getEarliestStart() - vehicle.getCurrentStep()) + rides.get(i).getDistance();
                             boolean isOnTime = distanceLeft <= (rides.get(i).getEarliestStart() - vehicle.getCurrentStep());
                             Integer scoreCandidate = ScoreUtil.getScore(rides.get(i), isOnTime);
-                            int rating = scoreCandidate / timeToCompleteTheRide;
+                            float rating = scoreCandidate / (float) timeToCompleteTheRide;
                             if (rating > maximumRating) {
                                 maximumRating = rating;
                                 rideId = i;
