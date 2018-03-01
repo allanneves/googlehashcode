@@ -9,8 +9,8 @@ public class Ride {
     private Integer earliestStart;
     private Integer latestFinish;
     private Integer distance;
-    private Score score;
     private float rating;
+    private boolean isAvailable = true;
 
     public Ride() {
         this.startCoordinate = new Coordinate();
@@ -56,5 +56,21 @@ public class Ride {
 
     public void setDistance(Integer distance) {
         this.distance = distance;
+    }
+
+    public float getRating() {
+        return rating;
+    }
+
+    public void setRating(float rating) {
+        this.rating = rating;
+    }
+
+    public boolean isAvailable() {
+        return isAvailable;
+    }
+
+    public void setAvailable(boolean available) {
+        isAvailable = available;
     }
 }
