@@ -1,10 +1,10 @@
-package com.thecraicers.controller;
+package com.thecraicers.util;
 
 import com.thecraicers.model.Coordinate;
 
-public class VehicleController {
+public class CoordinateUtil {
 
-    private Integer calculateDistance(Coordinate coordinate1, Coordinate coordinate2){
+    public static Integer calculateDistance(Coordinate coordinate1, Coordinate coordinate2){
         Integer coordinate1X = coordinate1.getX();
         Integer coordinate1Y = coordinate1.getY();
         Integer coordinate2X = coordinate2.getX();

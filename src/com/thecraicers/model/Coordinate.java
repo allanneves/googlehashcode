@@ -2,27 +2,27 @@ package com.thecraicers.model;
 
 public class Coordinate {
 
-    private Integer latitude;
-    private Integer longitude;
+    private Integer x;
+    private Integer y;
 
     public Coordinate() {
-        latitude = 0;
-        longitude = 0;
+        x = 0;
+        y = 0;
     }
 
-    public Integer getLatitude() {
-        return latitude;
+    public Integer getX() {
+        return x;
     }
 
-    public void setLatitude(Integer latitude) {
-        this.latitude = latitude;
+    public void setX(Integer x) {
+        this.x = x;
     }
 
-    public Integer getLongitude() {
-        return longitude;
+    public Integer getY() {
+        return y;
     }
 
-    public void setLongitude(Integer longitude) {
-        this.longitude = longitude;
+    public void setY(Integer y) {
+        this.y = y;
     }
 }
