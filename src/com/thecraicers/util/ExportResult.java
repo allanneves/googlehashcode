@@ -10,25 +10,39 @@ import com.thecraicers.model.Vehicle;
 
 public class ExportResult {
 
-  public static void export(List<Vehicle> results) throws IOException {
-    
-    String FILENAME = "filename.txt";
+  public static void export(List<Vehicle> results) {
 
-    BufferedWriter bw = null;
-    FileWriter fw = null;
+    try {
+      String FILENAME = "output.txt";
 
-    File file = new File(FILENAME);
-    StringBuilder data = null;
-    for (Vehicle singleResult : results) {
+      BufferedWriter bw = null;
+      FileWriter fw = null;
 
-      for (int x : singleResult.getCompletedRides()) {
-        data.append(x + " ");
+      File file = new File(FILENAME);
+      for (Vehicle singleResult : results) {
+        StringBuilder data = new StringBuilder();
+
+/*        for (int x : singleResult.getCompletedRides()) {
+          data.append(x + " ");
+        }*/
+
+        data.append(singleResult.getCompletedRides().size() + " ");
+
+        for (Integer integer : singleResult.getCompletedRides()) {
+          data.append(integer + " ");
+        }
+
+
+
+        fw = new FileWriter(file.getAbsoluteFile(), true);
+        bw = new BufferedWriter(fw);
+        bw.write(data + "\n");
+        bw.close();
       }
-
-      fw = new FileWriter(file.getAbsoluteFile(), true);
-      bw = new BufferedWriter(fw);
-      bw.write(data + "\n");
-      bw.close();
+    } catch (IOException e) {
+      System.out.println("It's Chrisophe's fault");
+    } catch (NullPointerException e) {
+      System.out.println("Ugly Exception");
     }
   }
 }

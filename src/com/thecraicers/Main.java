@@ -4,6 +4,7 @@ import com.thecraicers.constants.AppConstant;
 import com.thecraicers.controller.StrategyController;
 import com.thecraicers.model.Ride;
 import com.thecraicers.model.Vehicle;
+import com.thecraicers.util.ExportResult;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,6 +33,8 @@ public class Main {
         }
 
         System.out.println("this is the sum: " + aux);
+
+        ExportResult.export(vehicles);
 
     }
 }
